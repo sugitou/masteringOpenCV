@@ -12,6 +12,6 @@ print(np.__version__)
 print(matplotlib.__version__)
 print(scipy.__version__)
 print(mahotas.__version__)
-print(skimage.__version__)
+# print(skimage.__version__)
 print(sklearn.__version__)
 # %%
