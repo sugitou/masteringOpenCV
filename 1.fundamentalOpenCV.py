@@ -21,5 +21,8 @@ im = cv2.imread('images/surrey-logo.png', flags=cv2.IMREAD_COLOR)
 if im is None:
     print("Could not open or find the image")
 else:
-    cv2.imshow('image', im)
+    cv2.imshow('Deer Image', im)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+    cv2.imwrite('images/out.jpg', im)
 # %%
