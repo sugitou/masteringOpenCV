@@ -24,5 +24,8 @@ else:
     cv2.imshow('Deer Image', im)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+    # To solve the issue of the image not vanishing
+    cv2.waitKey(1)
+    cv2.destroyAllWindows()
     cv2.imwrite('images/out.jpg', im)
 # %%
